@@ -71,3 +71,12 @@
         speed = 1
     }
 }
+@PART[FASAGerminiSRBInlineSep]:FINAL:NEEDS[SmokeScreen]
+{
+    @MODULE[ModuleEngines*]
+    {
+        @name = ModuleEnginesFX
+        !fxOffset = DELETE
+        %powerEffectName = Solid-Sepmotor
+    }
+}
