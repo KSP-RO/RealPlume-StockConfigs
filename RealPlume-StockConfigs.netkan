@@ -23,6 +23,7 @@
         { "name" : "ModularRocketSystem" },
         { "name" : "ProceduralParts" },
         { "name" : "PhoenixIndustriesBoosters" },
+        { "name" : "RealScaleBoosters" },		
         { "name" : "RLA-Stockalike" },
         { "name" : "SpaceY-Expanded" },
         { "name" : "SpaceY-Lifters" },
