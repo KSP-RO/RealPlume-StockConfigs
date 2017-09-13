@@ -17,6 +17,10 @@
 //  plumeScale:    the local scale of the plume (if fixedScale is insufficient)
 //  flarePosition: the local XYZ coordinates of the plume flare (if localPosition is insufficient)
 //  flareScale:    the local scale of the plume flare (if fixedScale is insufficient)
+//  smokePosition: the local XYZ coordinates of the plume smoke (if localPosition is insufficient) //SRB plumes only
+//  smokeScale:    the local scale of the plume smoke (if fixedScale is insufficient) //SRB plumes only
+//  slagPosition: the local XYZ coordinates of the plume slag (if localPosition is insufficient) //SRB plumes only
+//  slagScale:    the local scale of the plume slag (if fixedScale is insufficient) //SRB plumes only
 //  fixedScale:    the global scale of the plume
 //  energy:        the length of the plume
 //  speed:         the speed of the plume (visual only)
@@ -49,6 +53,33 @@
     @MODULE[ModuleEngines*]
     {
         %powerEffectName = RealPlumeName
-        !runningEffectName = DELETE
+    }
+}
+
+@PART[ExamplePartName]:FOR[RealPlume]:NEEDS[SmokeScreen] // For SRB Plumes
+{
+    PLUME
+    {
+        name = RealPlumeName
+        transformName = EngineThrustTransform
+        localPosition = 0.0, 0.0, 0.0
+        localRotation = 0.0, 0.0, 0.0
+        plumePosition = 0.0, 0.0, 0.0 
+        plumeScale = 1.0
+        flarePosition = 0.0, 0.0, 0.0
+        flareScale = 1.0
+		smokePosition = 0.0, 0.0, 0.0
+		smokeScale = 1.0
+		slagPosition = 0.0, 0.0, 0.0
+		slagScale = 1.0
+        fixedScale = 1.0
+        energy = 1.0
+        speed = 1.0
+        emissionMult = 0.5
+    }
+
+    @MODULE[ModuleEngines*]
+    {
+        %powerEffectName = RealPlumeName
     }
 }
