@@ -41,7 +41,7 @@
     "install" : [
         {
             "find"       : "RealPlume-Stock",
-            "install_to" : "GameData/RealPlume"
+            "install_to" : "GameData"
         }
     ]
 }
