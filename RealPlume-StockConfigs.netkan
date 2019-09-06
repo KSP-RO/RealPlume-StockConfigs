@@ -39,7 +39,7 @@
     ],
     "provides"  : [ "RealPlumeConfigs" ],
     "resources" : {
-    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130576-11-realplume-stock-configs-continued-v0102-201649/"
+    "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/188033-173-realplume-stock-v140-06sep19/"
     },
     "install" : [
         {
