@@ -1,8 +1,8 @@
 {
     "spec_version"      : "v1.4",
     "$kref"             : "#/ckan/github/KSP-RO/RealPlume-StockConfigs",
-    "ksp_version_min"   : "1.4",
-    "ksp_version_max"   : "1.8.99",
+    "ksp_version_min"   : "1.8.1",
+    "ksp_version_max"   : "1.9.99",
     "name"              : "Real Plume - Stock Configs",
     "author"	          : [ "Zorg", "Nhawks1717", "Felger" ],
     "identifier"        : "RealPlume-StockConfigs",
