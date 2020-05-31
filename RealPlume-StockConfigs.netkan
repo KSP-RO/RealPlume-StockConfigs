@@ -9,6 +9,7 @@
     "abstract"          : "A set of configs for RealPlume to support stock and many mods with expanding Smokescreen plumes. Requires RealPlume and Smokescreen to function",
     "license"           : "CC-BY-NC-SA",
     "depends" : [
+        { "name" : "ModuleManager" },
         { "name" : "RealPlume" }
     ],
     "suggests" : [
