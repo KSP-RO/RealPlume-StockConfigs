@@ -1,0 +1,18 @@
+@PART[R4D11]:FOR[RealPlume]:NEEDS[SmokeScreen] // SLS R4D11
+{
+    PLUME
+    {
+        name = Hypergolic-OMS-White
+        transformName = thrustTransform
+        localRotation = 0,0,0
+        flarePosition = 0,0,-1.1
+        plumePosition = 0,0,0
+        fixedScale = 0.35
+        energy = 3
+        speed = 2
+    }
+    @MODULE[ModuleEngines*]
+    {
+        %powerEffectName = Hypergolic-OMS-White
+    }
+}
