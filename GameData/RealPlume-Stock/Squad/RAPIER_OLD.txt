@@ -1,7 +1,7 @@
 // If the fancy Rapier plume causes low fps for you, please delete RAPIER.cfg and rename this file from RAPIER_OLD.txt to RAPIER_OLD.cfg
 //A similar option is available for reStock as well in that folder
 
-@PART[RAPIER]:FOR[RealPlume]:NEEDS[SmokeScreen,!ReStock] // CR-7 R.A.P.I.E.R. Engine
+@PART[RAPIER]:FOR[RealPlume]:NEEDS[SmokeScreen,!ReStock,!Waterfall] // CR-7 R.A.P.I.E.R. Engine
 {
     PLUME
     {
